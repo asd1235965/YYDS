@@ -51,8 +51,8 @@ proxy-providers:
   # 优质订阅源 - 优质节点集合，使用时请修改
   优质服务商: {<<: *BaseProvider, url: 'https://z.7li7li.net/api/v1/client/subscribe?token=56119dad054360c95d9b7942dbb8d96f', override: {additional-prefix: '[优] '}}
   # 备用订阅源 - 次优节点集合，使用时请修改
-  备用服务商: {<<: *BaseProvider, url: 'https://jkun.waimaosass.icu/api/v1/client/subscribe?token=2a83e682cf1f50113d9b43b8c69f0934', override: {additional-prefix: '[备] '}}
-  备用服务商2: {<<: *BaseProvider, url: 'https://jkun.waimaosass.icu/api/v1/client/subscribe?token=0d67367cd148f78e0f0fc88d879921a3', override: {additional-prefix: '[备] '}}
+  年费宝可梦: {<<: *BaseProvider, url: 'https://jkun.waimaosass.icu/api/v1/client/subscribe?token=2a83e682cf1f50113d9b43b8c69f0934', override: {additional-prefix: '[备] '}}
+  免费宝可梦: {<<: *BaseProvider, url: 'https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=0d67367cd148f78e0f0fc88d879921a3', override: {additional-prefix: '[备] '}}
 
 
 
